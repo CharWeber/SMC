@@ -6,9 +6,17 @@ import Tweet from './Tweet.js';
 function Header(){
   return(
     <React.Fragment>
-      <Links />
-      <Searchbar />
-      <Tweet />
+      <p>
+      <span>
+        <Links />
+      </span>
+      <span>
+        <Searchbar />
+      </span>
+      <span>
+        <Tweet />
+      </span>
+      </p>
     </React.Fragment>
   );
 }

@@ -1,13 +1,18 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-function PotentialFriend(){
+function PotentialFriend(props){
   return(
     <div>
       <p>Is this your friend?</p>
-      <p>FriendName</p>
+      <p>{props.friendName}</p>
       <p>Add friend btn</p>
     </div>
   );
+}
+
+PotentialFriend.propTypes = {
+  friendName: PropTypes.string.isRequired
 }
 
 export default PotentialFriend;
