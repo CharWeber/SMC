@@ -7,8 +7,12 @@ function App() {
 
 return (
     <React.Fragment>
-      <Header />
-      <Body />
+      <div class="container">
+        <div class="card">
+          <Header />
+        </div>
+        <Body />
+      </div>
     </React.Fragment>
   );
 }

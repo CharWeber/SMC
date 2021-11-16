@@ -14,3 +14,15 @@ code {
 .navbar{
   display: flex;
 }
+.card{
+  margin: 5px;
+  padding: 5px;
+}
+/* .card-justify{
+  margin: 5px;
+  padding: 5px;
+  grid-template-columns: 33% 33% 33%;
+} */
+.container{
+  text-align:center;
+}

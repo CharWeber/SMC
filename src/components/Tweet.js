@@ -5,8 +5,8 @@ function Tweet(){
   return(
     <React.Fragment>
       <p>
-        <span>Tweet</span>
-        <AddTweet/>
+        <span class="nav-link"><span>Tweet</span></span>
+        <span class="nav-link"><AddTweet/></span>
       </p>
     </React.Fragment>
   );

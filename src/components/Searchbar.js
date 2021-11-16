@@ -4,7 +4,7 @@ function Searchbar(){
   return(
     <React.Fragment>
       <p>
-        <span>SEARCHBAR HERE</span>
+        <span class="nav-link"><span>SEARCHBAR HERE</span></span>
       </p>
     </React.Fragment>
   );

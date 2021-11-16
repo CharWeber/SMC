@@ -3,10 +3,10 @@ import React from "react";
 function Profile(){
   return(
     <React.Fragment>
-      <h1>Profile's Name</h1>
-      <p>followers,
-      Following,
-      tweets</p>
+      <h2>Profile's Name</h2>
+      <btn class='btn-dark'>Following</btn> ||| 
+      <btn class='btn-dark'>Followers</btn> ||| 
+      <btn class='btn-dark'>Tweets</btn>
     </React.Fragment>
   );
 }

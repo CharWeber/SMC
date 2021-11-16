@@ -8,9 +8,9 @@ function Header(){
     <React.Fragment>
       <p>
         <div class="navbar">
-          <Links />
-          <Searchbar />
-          <Tweet />
+            <Links />
+            <Searchbar />
+            <Tweet />
         </div>    
       </p>
     </React.Fragment>
@@ -18,3 +18,10 @@ function Header(){
 }
 
 export default Header;
+
+{/* <nav class="nav">
+  <a class="nav-link active" href="#">Active</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link disabled" href="#">Disabled</a>
+</nav> */}

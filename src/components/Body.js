@@ -8,13 +8,19 @@ function Body(){
     <React.Fragment>
       <div class="row">
         <div class="col-4">
-          <UserInfo />
+          <div class="card">
+            <UserInfo />
+          </div>
         </div>
         <div class="col-4">
-          <Feed />
+          <div class="card">
+            <Feed />
+          </div>
         </div>
         <div class="col-4">
-          <AddFriend />
+          <div class="card">
+            <AddFriend />
+          </div>
         </div>
       </div>
     </React.Fragment>
