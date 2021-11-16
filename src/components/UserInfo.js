@@ -6,7 +6,6 @@ function UserInfo(){
   return(
     <React.Fragment>
       <p>
-        <span>UserInfo</span>
         <Profile />
         <About />
       </p>

@@ -5,7 +5,6 @@ function Searchbar(){
     <React.Fragment>
       <p>
         <span>SEARCHBAR HERE</span>
-        <span>Tweet BTN here</span>
       </p>
     </React.Fragment>
   );

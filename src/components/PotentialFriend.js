@@ -6,7 +6,6 @@ function PotentialFriend(props){
     <div>
       <p>Is this your friend?</p>
       <p>{props.friendName}</p>
-      <p>Add friend btn</p>
     </div>
   );
 }

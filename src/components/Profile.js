@@ -4,9 +4,9 @@ function Profile(){
   return(
     <React.Fragment>
       <h1>Profile's Name</h1>
-      <p>followers</p>
-      <p>Following</p>
-      <p>tweets</p>
+      <p>followers,
+      Following,
+      tweets</p>
     </React.Fragment>
   );
 }

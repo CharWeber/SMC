@@ -7,15 +7,11 @@ function Header(){
   return(
     <React.Fragment>
       <p>
-      <span>
-        <Links />
-      </span>
-      <span>
-        <Searchbar />
-      </span>
-      <span>
-        <Tweet />
-      </span>
+        <div class="navbar">
+          <Links />
+          <Searchbar />
+          <Tweet />
+        </div>    
       </p>
     </React.Fragment>
   );

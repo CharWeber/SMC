@@ -1,8 +1,11 @@
 import React from "react";
 
+
 function FriendUpdate(){
   return(
-    <p>Your friends most recent updates show here!</p>
+    <React.Fragment>
+      <p>Friend updates go here</p>
+    </React.Fragment>
   );
 }
 
